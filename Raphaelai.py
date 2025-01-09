@@ -141,7 +141,7 @@ if __name__== "__main__":
             remember =open("data.txt","w")
             remember.write(data)
             remember.close()
-        elif "do you know anything" in query:
+        elif "do you remember anything " in query:
             remember =open("data.txt","r")
             speak("You said me to remember that"+remember.read())
 
